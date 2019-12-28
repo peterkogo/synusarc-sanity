@@ -44,7 +44,7 @@ export default () =>
       .child(
         S.documentTypeList('essay')
         .title('Essays')
-      )
-      // S.divider(),
-      // ...S.documentTypeListItems()
+      ),
+      S.divider(),
+      ...S.documentTypeListItems()
       ])
